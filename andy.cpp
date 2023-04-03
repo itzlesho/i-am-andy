@@ -17,7 +17,7 @@ int main() {
 int LinearSearch(int array[], int length, int desiredValue) {
         int i;
 
-        for (i = 0; i < length; i++) {   //BUG: the test i<=length is wrong
+        for (i = 0; i < length; i++) {   //BUG: the test i<=length is wrong//fixed
                 if (desiredValue == array[i]) {
                         break;
                 }
